@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             int[] result = GetLottery(1,49,6);
-            tvResult.setText(Arrays.toString(result));
+            tvResult.setText("修改測試" + Arrays.toString(result));
         }
     };
 
